@@ -50,6 +50,7 @@ body {
 	min-width: 320px;
 	position: relative;
 	overflow-x: hidden;
+	
 }
 
 /* USER STYLES */
@@ -74,7 +75,7 @@ body {
 
 .logo {
 	width: 300px;
-	margin: 15px 0 0 0;
+	margin: 15px 0 0 8px;
 	left: 0;
 }
 
