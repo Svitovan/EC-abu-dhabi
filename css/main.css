@@ -125,7 +125,7 @@ body {
 	max-width: 1200px;
 	height: 100px;
 	margin: auto;
-	font-size: 12px;
+	font-size: 14px;
 	color: white;
 	
 }
@@ -135,7 +135,7 @@ body {
 }
 
 .logo__footer {
-	width: 200px;
+	width: 220px;
 	margin: 0 0 0 0;
 }
 
