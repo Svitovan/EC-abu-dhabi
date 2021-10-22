@@ -17,12 +17,23 @@
 
 /* sm <= Medium (md) */
 @media (max-width : 768px) {
-
+	.logo__header {
+		width: 220px;
+	}
+	.h1-style {
+		font-size: 30px;
+	}
+	.logo__footer {
+		width: 150px;
+	}
+	.footer__container {
+		font-size: 10px;
+	}
 }
 
 /* xs <= Small (sm) */
 @media (max-width : 576px) {
-
+	
 }
 
 
@@ -36,6 +47,7 @@
 /* Small (sm) */
 @media (min-width : 576px) {
 
+	
 }
 
 /* Medium (md) */
