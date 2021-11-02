@@ -66,6 +66,13 @@ body {
 	/* text-align: center; */
 }
 
+.image-m {
+	/* width: 650px; */
+	height: 350px;
+}
+
+
+
 .bg-gray {
 	background-color: var(--bg);
 }
@@ -93,6 +100,7 @@ body {
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 24px;
+	text-align: left;
 }
 
 /* HEADER */
@@ -129,8 +137,18 @@ body {
 
 /* MAIN CONTENT */
 
+.banner {
+	display: flex;
+	justify-content: center;
+}
+
+.banner-img {
+	max-height: 350px;
+}
+
 .image-top {
-	max-width: 100%;
+	/* max-width: 30%; */
+	width: 1200px;
 	margin: 50px 0 25px 0;
 	border-radius: 5px;
 }
