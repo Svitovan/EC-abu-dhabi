@@ -33,10 +33,36 @@
 
 /* xs <= Small (sm) */
 @media (max-width : 576px) {
-	
-}
-
-
+	body {
+		font-size: 12px;
+	}
+	.icon-cell {
+		padding: 0;
+	}
+	.logo__header {
+		width: 190px;
+	}
+	.h1-style {
+		font-size: 25px;
+	}
+	.h2-style {
+		font-size: 20px;
+	}
+	.logo__footer {
+		margin: 10px;
+		width: 250px;
+	}
+	.footer__container {
+		font-size: 9px;
+	}
+	.img-linkedin {
+		margin: 10px;
+		width: 25px;
+	}
+	.f320 {
+		text-align: center;
+		font-size: 14px;
+	}
 /* === MOBILE FIRST === */
 
 /* Custom (xs) */

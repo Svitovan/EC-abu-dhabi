@@ -7,18 +7,24 @@
 	<!-- <base href="/"> -->
 
 	<title>Euro-Center</title>
-	<meta name="description" content="Euro-Center">
+	<meta name="description" content="Simple Starter Description">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<link rel="icon" href="images/EC-snail.png">
+	<link rel="icon" href="{{'assets/images/favicon.ico'|theme}}">
 	<meta property="og:image" content="images/image.jpg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
 
-	<link rel="stylesheet" href="css/adipec-main.css">
-	<link rel="stylesheet" href="css/adipec-media.css">
+	<link rel="stylesheet" href="{{'assets/css/adipec-main.css'|theme}}">
+	<link rel="stylesheet" href="{{'assets/css/adipec-media.css'|theme}}">
 
 </head>
 
@@ -32,10 +38,10 @@
 			<div class="header__container">
 				<div class="col d-flex justify-content-between">
 					<a href="https://www.euro-center.com/">
-						<img src="images/EuroCenterLogo.svg" class="logo__header" alt="Euro-Center logo"></a>
+						<img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/EuroCenterLogo.svg" class="logo__header" alt="Euro-Center logo"></a>
 					<a href="https://www.linkedin.com/company/136009/">
 						<!-- <i class="bi bi-linkedin" style="font-size: 2rem;"></i> -->
-						<img src="images/linkedin.png" class="img-linkedin" alt="">
+						<img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/linkedin.png" class="img-linkedin" alt="">
 					</a>
 				</div>
 			</div>
@@ -46,7 +52,7 @@
 
 		<div class="row">
 			<div class="col to-center">
-				<img src="images/image-top.jpg" class="image" alt="oil rigs">
+				<img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/image-top.jpg" class="image" alt="oil rigs">
 			</div>
 		</div>
 
@@ -55,7 +61,8 @@
 		<div class="row container-for-text">
 			<div class="col">
 				<h2 class="h2-style text-center">Global assistance to suit your needs</h2>
-				Euro-Center; a global medical assistance company owned by Munich Re. Servicing remote and urban corporate companies, governmental organizations and expatriate insurance companies. Euro-Center is recognized for ‘making the impossible possible’ in an emergency. With 50 years’ experience, Euro-Center is well suited to service ADIPEC participants with sound solutions at an attractivce price. Euro-Center have global experience in the oil and gas/energy industry across Africa, Asia and the Middle East.
+				Euro-Center is a global emergency medical assistance company owned by the Munich Re. 
+				We service remote and urban corporate companies, governmental organizations, ministries of foreign affairs and expatriate insurance companies Euro-Center is recognized for ‘making the impossible possible’ in emergencies. With 50 years’ experience, Euro-Center is well suited to service ADIPEC participants with solutions and commitment.   We have global experience, including in hot spots across Africa and the Middle East.
 			</div>
 		</div>
 
@@ -64,11 +71,11 @@
 		<div class="row container-for-text-nobg">
 			<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-4">
 				<h2 class="h2-style ">Global presence and local assistance</h2>
-				<p >Euro-Center provides a local presence. Having extensive geographic and cultural knowledge of the local area and healthcare systems. Three 24/7 medically staffed call centers; located in Prague, Bangkok and Helsinki along with local offices in; Istanbul, Larnaca, Beijing, Bangkok, Prague, Cape Town, Miami, Sao Paulo, Moscow and Sydney, to ensure access to all parts of the world giving global coverage.</p> 
-				<p>We speak over 40 languages across the Company.</p>
+				<p >Euro-Center provides local presence, having extensive geographical knowledge of local areas and healthcare systems.  Three 24/7 medically staffed call centers in Prague, Bangkok and Helsinki, and regional offices in Istanbul, Cyprus, Beijing, Bangkok, Prague, Cape Town, Miami, Sao Paulo, Moscow and Sydney ensure access to all parts of a the world and global coverage.</p> 
+				<p>We speak over 40 languages and have multiple 24/7 language platforms.</p>
 			</div>
 			<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-8 align-self-center text-center">
-				<img src="images/ECMAP.png" class="image-map" alt="Offices map">
+				<img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/ECMAP.png" class="image-map" alt="Offices map">
 			</div>
 		</div>
 
@@ -76,7 +83,7 @@
 
 		<div class="row bg-gray">
 			<div class="col to-center text-center">
-				<img src="images/3in1.jpg" class="image-3in1" alt="Oil rigs">
+				<img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/3in1.jpg" class="image-3in1" alt="Oil rigs">
 			</div>
 		</div>
 
@@ -84,11 +91,11 @@
 
 		<div class="row container-for-text-nobg">
 			<div class="col align-self-center text-center">
-				<img src="images/corporate-services.png" class="image-scheme" alt="">
+				<img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/corporate-services.png" class="image-scheme" alt="">
 			</div>
 			<div class="col col-xs">
 				<h2 class="h2-style">Corporate assistance solutions</h2>
-				<p>Euro-Center; a one stop solution for all corporate assistance service requirements</p>
+				<p>Euro-Center is a one stop solution for all corporate assistance service requirements</p>
 				<p><ul><li>Medical case management</li>
 					<li>Emergency evacuation/repatriations</li>
 					<li>24/7 medical call centers</li>
@@ -100,43 +107,40 @@
 					<li>Specialized expatriate support services</li>
 					<li>Global occupational health service network</li>
 					<li>Security services</li></ul></p>
+				<p>Security services: Strategic partnerships with Chelsea Group and Crisis24 </p>
 			</div>
 		</div>
 
 		<!-- Global medical provider network -->
 		
 		<div class="row container-for-text-nobg">
-			
-			<h2 class="h2-style">Global medical provider network </h2>
-				
-				<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-5 align-self-center text-center">
-					<img src="images/doctors.jpg" class="image-med" alt="">
+			<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-7">
+				<h2 class="h2-style">Global medical provider network </h2>
+				<div class="numbers">
+					<ul class="pt-3">
+						<li><b>70,000</b> selected worldwide providers</li>
+						<li><b>5,250</b> partner and preferred providers</li>
+						<li><b>32,000</b> cashless service providers</li>
+					</ul>
 				</div>
-
-				<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-7">
-					<div class="numbers">
-						<ul class="pt-3">
-							<li><b>70,000</b> selected worldwide providers</li>
-							<li><b>5,250</b> partner and preferred providers</li>
-							<li><b>32,000</b> cashless service providers</li>
-						</ul>
-					</div>
-					<p><ul>
-						<li>Medical providers</li>
-						<li>Transport providers</li>
-						<li>Security services</li>
-						<li>Travel services / legal / other</li>
-					</ul></p>
-					<p>App solution: Medical facility search and security information & alerts.</p> 
-				</div>
-			
+				<p><ul>
+					<li>Medical providers</li>
+					<li>Transport providers</li>
+					<li>Security services</li>
+					<li>Travel services / legal / other</li>
+				</ul></p>
+				<p>App solution: Medical facility search and security information & alerts.</p> 
+			</div>
+			<div class="col col-xs-12 col-sm-12 col-md-12 col-lg-5 align-self-center text-center">
+				<img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/doctors.jpg" class="image-med" alt="">
+			</div>
 		</div>
 
 		<!-- Pandemic solutions -->
 	
 		<div class="row container-for-text-nobg">
 			<div class="col align-self-center text-center">
-				<img src="images/guy-with-vac.jpg" class="image-med-2" alt="">
+				<img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/guy-with-vac.jpg" class="image-med-2" alt="">
 			</div>
 			<div class="col ">
 				<h2 class="h2-style">Pandemic solutions</h2>
@@ -145,31 +149,31 @@
 		</div>
 
 		<!-- ICONS -->
-<!-- 
+
 		<div class="row bg-icon d-flex justify-content-center ">
 			<h2 class="header-icons">Additional Services</h2>
 			<div class="icon-shell">
 				<div class="icon-cell">
-					<p><img src="images/icon-telemedicine.png" alt="" class="icon-size"></p>
+					<p><img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/icon-telemedicine.png" alt="" class="icon-size"></p>
 					<p><b>Telemedicine Services</b></p>
 				</div>
-				<div class=" icon-cell">
-					<p><img src="images/icon-psychologist.png" alt="" class="icon-size"></p>
+				<div class="icon-cell">
+					<p><img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/icon-psychologist.png" alt="" class="icon-size"></p>
 					<p><b>Psychological Counselling</b></p>
 				</div>
-				<div class=" icon-cell">
-					<p><img src="images/icon-traveller.png" alt="" class="icon-size"></p>
+				<div class="icon-cell">
+					<p><img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/icon-traveller.png" alt="" class="icon-size"></p>
 					<p><b>Travel Assistance Services</b></p>
 				</div>
 			</div>
-		</div> -->
+		</div>
 		
 		<!-- QUOTES -->
 
 		<div class="row container-for-text-nobg">
 			<div class="col align-self-start">
 				<div class="icon-cell">
-					<img src="images/q1.png" class="quote-icon" alt="">
+					<p><img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/q1.png" class="quote-icon" alt=""></p>
 				</div>
 				<p><i>«Thanks for the happy update. A complex case but outcome is good and it wasn’t a given that he would make this recovery so I’m also very grateful to you, Chelsea Village, Euro-Center and the entire team who have been behind us all the way.»</i></p>  
 				<p>UN personnel client<br> Somalia</p>
@@ -177,16 +181,17 @@
 			</div>
 			<div class="col col-xs align-self-start">
 				<div class="icon-cell">
-					<img src="images/q2.png" alt="" class="quote-icon">
+					<p><img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/q2.png" alt="" class="quote-icon"></p>
+					
 				</div>
 				<p><i>«I just want to express my thanks for EC’s support and actions during this time. People may say that the team just did their job but trust me I’m very aware of how some people “do their jobs” and can say with confidence that the EC team certainly went a step further to ensure that everything required was handled and that my situation as a patient was taken into account as they dealt with my requests and situation.»</i></p>
-				<p>CEO, finance company<br>
+				<p>CEO, Finance company<br>
 				Emergency evacuation from Eswatini</p> 
 
 			</div>
 			<div class="col align-self-start">
 				<div class="icon-cell">
-					<img src="images/q3.png" alt="" class="quote-icon">
+					<p><img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/q3.png" alt="" class="quote-icon"></p>
 				</div>
 				<p><i>«Thank you so much for excellent and prompt attention.»</i></p> 
 				<p class="">Head of sales, global retailer<br>
@@ -197,45 +202,22 @@
 		</div>
 
 		<div class="row container-for-text">
-			<!-- <div class="col col-xs align-self-center">
+			<div class="col col-xs align-self-center">
 				Lorem ipsumdolor sit amet consectetur adipisicing elit. Delectus culpa fugiat iste quos tempore dignissimos aperiam cum beatae fugit deserunt, neque ducimus numquam porro fuga et vitae deleniti labore?
-			</div> -->
-			<div class="col align-self-center text-center">
-				<img src="images/50years.jpg" class="img-50" alt="">
+			</div>
+			<div class="col align-self-center">
+				<img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/50years.jpg" class="image" alt="">
 			</div>
 		</div>
 		
-		<!-- FOOTER -->
-	</div><!-- container-fluid end -->
-<!-- 
-		<div class="row bg-blue">
-			<div class="footer__container">
-				<div class="col-12 col-sm-4">
-					<p><img src="images/EuroCenterLogoWhite.svg" class="logo__footer" alt="Euro-Center Logo"></p>
-				</div>
-				<div class="col-12 col-sm-4 copyright">
-					<p>Copyright © 2021 <b>EURO-CENTER</b> | <a href="https://www.euro-center.com/cms/privacy-policy">Privacy Policy</a></p>
-					<p>
-						Commercial manager <br>
-						Petr Skok <br>
-						
-						p.skok@euro-center.com <br>
-						tel: +420 221 860 330
-						</p>
-				</div>
-				<div class="col-12 col-sm-4 adress">
-					<p>Euro-Center Holding SE <br>
-						Křižíkova 36a, 186 00 Prague 8,<br>
-						Czech Republic</p>
-				</div>
-			</div>
-		</div> -->
-		
+	
 
-		<div class="f2">
+	</div>
+	<!-- FOOTER -->
+	<div class="f2">
 			<div class="container">
 				<div class="row">
-					<div class="col-12 col-sm-4 f320 align-self-center text-center"><p><img src="images/EuroCenterLogoWhite.svg" class="logo__footer" alt="Euro-Center Logo"></p></div>
+					<div class="col-12 col-sm-4 f320 align-self-center text-center"><p><img src="https://www.euro-center.com/cms/storage/app/media/adipec-images/EuroCenterLogoWhite.svg" class="logo__footer" alt="Euro-Center Logo"></p></div>
 					<div class="col-12 col-sm-4 f320 align-self-center text-center">
 						<p>Commercial manager <br>
 						Petr Skok <br>
@@ -249,7 +231,6 @@
 				</div>
 			</div>
 		</div>
-		
 	
 	
 	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
